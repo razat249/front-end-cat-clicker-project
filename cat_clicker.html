@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<style type="text/css">
+			h1{
+				color: coral;
+				font-size: 100px;
+				display: inline;
+			}
+			img{
+				height: 100%;
+			}
+			#2{
+				float: right;
+			}
+		</style>
+		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	</head>
+
+
+	<body>
+		<h2>Click the below <strong>cat</strong> and see the magic !!</h2>
+		<div id="1"><h2>Pupu</h2><img src="cat.jpg"></div>
+		<div id="2"><h2>Mimi</h2><img src="cat1.jpg"></div>
+		
+		<script>
+			var i = 0;
+			var j = 0
+			$('#1').click(function(){
+				i++;
+				$('#1 h1').remove();
+				$('#1').append('<h1>'+i+'</h1>');
+			});
+			$('#2').click(function(){
+				j++;
+				$('#2 h1').remove();
+				$('#2').append('<h1>'+j+'</h1>');
+			});
+		</script>
+	</body>
+</html>
