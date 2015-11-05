@@ -1,11 +1,18 @@
 h1{
-	color: coral;
+	color: white;
+	background-color: coral;
 	font-size: 100px;
 	display: inline;
 }
+
+h2{
+	color: white;
+}
+
 img{
 	height	: 100%;
 }
+
 #2{
 	float: right;
 }
@@ -13,4 +20,8 @@ img{
 ul{
 	width: 100px;
 	display: flex;
+}
+
+body{
+	background-color: coral;
 }
