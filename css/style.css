@@ -1,0 +1,16 @@
+h1{
+	color: coral;
+	font-size: 100px;
+	display: inline;
+}
+img{
+	height	: 100%;
+}
+#2{
+	float: right;
+}
+
+ul{
+	width: 100px;
+	display: flex;
+}
